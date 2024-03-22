@@ -14,3 +14,9 @@ end
 
 vim.cmd.colorscheme("vscode")
 
+vim.filetype.add({
+  extension = {
+    frag = "glsl",
+    vert = "glsl",
+  }
+})
